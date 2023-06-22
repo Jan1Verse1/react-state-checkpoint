@@ -1,5 +1,7 @@
 import "./Profil.css";
 
+// react state = React.createClass({
+
 const Profil = (props) => {
   const { img, fullName, profession, bio } = props.persone;
   return (
